@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: auto;
+}
+
+
+.menu {
+    background-color: rgb(50, 50, 50);
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 60px;
+}
+
+.menu ul {
+    display: inline-flex;
+    list-style: none;
+    margin: 10px 20px 20px 20px;
+    text-align: center;
+}
+
+
+.menu ul li {
+    padding: 5px 5px 5px 5px;
+
+}
+
+.menu ul li a {
+    text-align: center;
+    text-decoration: none;
+    margin: auto 20px 0px 20px;
+    padding: 5px 5px 5px 5px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    transition: .5s;
+    padding: 10px 10px 10px 10px;
+}
+
+
+#home {
+    font-weight: 900;
+}
+
+.menu ul li a:hover {
+    background-color: rgb(71, 255, 148);
+    padding: 10px 10px 20px 10px;
+    transform: scale(1.5);
+}
+
+#home:hover {
+    background-color: rgb(255, 71, 71);
+    padding: 10px 10px 20px 10px;
+    transform: scale(1.5);
+}
+
+
+.footer {
+    text-align: center;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: capitalize;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 30px auto auto;
+    padding: 20px;
+}
+
+.footer span {
+    text-transform: none;
+}
+
+.header {
+    background-color: black;
+    width: 100%;
+    height: 10em;
+    padding: 30px 30px 30px 30px;
+}
+
+.header h1 {
+    font-size: 100px;
+    font-weight: 400;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    margin: auto auto 0px auto;
+}
+
+.header p {
+    font-size: 16px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.2);
+    text-transform: capitalize;
+    margin: 0 auto 10px auto;
+}
+
+.port1 {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px 20px 20px;
+    width: 800px;
+}
+
+.img_logo img {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    box-shadow: 1px 5px 4px .5px rgba(0, 0, 0, 0.5);
+}
+
+.data {
+
+    padding: 10px 10px;
+    max-width: 500px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.data li {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 200;
+    margin: 5px 5px;
+}
+
+.data li a {
+    text-decoration: none;
+    color: black;
+    text-transform: none;
+    transition: .5s;
+}
+
+.data li a:hover {
+    color: tomato;
+}
+
+.data li span {
+    font-weight: 700;
+}
+
+.port2 {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.hobbies {
+    width: 220px;
+    border: solid 4px rgba(0, 0, 0, 0.151);
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: 10px;
+    transition: .5s;
+
+}
+
+.attention {
+    border: solid 4px rgba(0, 0, 0, 0.151);
+    width: 220px;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: .5s;
+}
+
+.skills {
+    border: solid 4px rgba(0, 0, 0, 0.151);
+    width: 220px;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: auto;
+    transition: .5s;
+    overflow: hidden;
+}
+
+.hobbies:hover,
+.attention:hover,
+.skills:hover {
+    transform: scale(1.0025);
+    background-color: rgb(255, 113, 88);
+}
+
+.hobbies li,
+.attention li,
+.skills li {
+    list-style: none;
+    text-transform: lowercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.hobbies h2,
+.attention h2,
+.skills h2 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.flex_img {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex_img img {
+    width: 30em;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-content {
+    max-width: 30em;
+    margin-top: 0px;
+    padding: 10px;
+    background-color: rgba(255, 139, 139, 0.603);
+    margin-left: auto;
+    border-left: solid 5px;
+    border-right: solid 5px;
+    margin-right: auto;
+    transition: .5s;
+    overflow: hidden;
+}
+
+.flex-content:hover {
+    transform: scale(1.025);
+}
+
+
+
+.flex-content span {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.flex-content li {
+    font-size: 14px;
+    text-transform: lowercase;
+    list-style: none;
+}
